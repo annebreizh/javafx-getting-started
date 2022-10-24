@@ -6,7 +6,8 @@ import javafx.scene.layout.VBox;
 import java.io.IOException;
 
 public class MyHeader extends VBox {
-    public MyHeader(){
+
+    public MyHeader() {
 
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("my_header.fxml"));
         fxmlLoader.setRoot(this);
